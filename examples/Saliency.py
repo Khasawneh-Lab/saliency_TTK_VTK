@@ -17,7 +17,7 @@ import time
 import cripser         
 import pygeodesic.geodesic as geodesic
 from vtk.util.numpy_support import vtk_to_numpy,numpy_to_vtk
-from Saliency_Clustering import saliency_based_clustering, feature_similarity
+from ttk_saliency import saliency_based_clustering, feature_similarity
 from itertools import combinations
 import sys,os
 #%% input parameters
